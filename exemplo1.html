@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label>Nome:</label>
+        <input type="text" 
+        id="nome"
+        name="nome"
+         placeholder="Seu nome aqui..."
+          maxlength="10" required
+          required autofocus autocomplete="off"><!--autofocus=foca ocursor automaticamente em um lugar...-->
+        <br><br>
+        <label>Senha:</label>
+        <input type="password" 
+        placeholder="Sua senha aqui..." 
+        maxlength="10"required>
+        <br><br>
+        <label for="idade">Idade:</label>
+        <input type="number"
+        name="idade"
+        id="idade"
+        min="0"
+        max="100"
+        step="10">
+
+        <br><br>
+
+        <label for="nota">Nota:</label>
+
+        <input type="range"
+        name="nota"
+        id="nota"
+        min="0"
+        max="5">
+
+        <br><br>
+
+        <label for="nasacimento">Data  de nascimento</label>
+        
+        <input type="date"
+        name="nascimento"
+        id="nascimento">
+        <br><br>
+        <button type="submit">Cadastrar</button>
+        <button type="reset">Limpar</button>
+    </form>
+</body>
+</html>

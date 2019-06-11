@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="br-PT   ">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+     <form>
+        <label>Nome:</label>
+        <input type="text" 
+        id="nome"
+        name="nome"
+            placeholder="Seu nome aqui..."
+            maxlength="10" required
+            required autofocus autocomplete="off">
+        <br><br>
+        <label>Senha:</label>
+        <input type="password" 
+        placeholder="Sua senha aqui..." 
+        maxlength="10"required>
+        <br><br>
+        <label for="idade">Idade:</label>
+        <input type="number"
+        name="idade"
+        id="idade"
+        min="0"
+        max="100"
+        step="10">
+        <br><br>
+        <input type="radio" name="gender" value="male" checked> Male<br>
+        <input type="radio" name="gender" value="female"> Female<br>
+        <input type="radio" name="gender" value="other"> Other
+    </form>
+</body>
+</html>
