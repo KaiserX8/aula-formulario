@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Exemplo1</title>
 </head>
 <body>
     <form>
@@ -43,9 +43,35 @@
 
         <label for="nasacimento">Data  de nascimento</label>
         
-        <input type="date"
+        <input type="datetime-local"
         name="nascimento"
-        id="nascimento">
+        id="nascimento"
+        value="2019">
+
+        <br><br>
+
+        <label>Sexo:</label>
+        <input type="radio"
+        name="sexo"
+        id="masculino">Masculino
+
+        <input type="radio"
+        name="Sexo"
+        id="feminino" checked>Feminino
+
+        <input type="radio"
+        name="Sexo"
+        id="outros">Outros
+
+        <br><br>
+        
+        <label>Hobby</label>
+
+        <label>cinema</label>
+            <input type="checkbox"
+            name="cinema"
+            id="cinema" checked>Cinema
+
         <br><br>
         <button type="submit">Cadastrar</button>
         <button type="reset">Limpar</button>
