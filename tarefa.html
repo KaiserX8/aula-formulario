@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pesquisa intenção de votos para líder de classe</title>
+</head>
+<body>
+    <form>
+        <h1>Pesquisa de intenção de votos</h1>
+        <label>Nome:</label>
+        <input type="text" 
+        id="nome"
+        name="nome"
+         placeholder="Seu nome aqui..."
+          maxlength="40" required>
+        <br><br>
+        <label>Sexo:</label>
+        <input type="radio" name="sexo" id="masculino">Masculino
+
+        <input type="radio" name="Sexo" id="feminino" checked>Feminino
+
+        <input type="radio" name="Sexo" id="outros">Outros
+        <br><br>
+        <label>Telefone:</label>
+        <input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{5}-[0-9]{4}">
+        <br><br>
+        <label for="sala">Sala</label>
+        <select name="sala" id="sala">
+            <option disabled selected>Selecione...</option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+        </select>
+        <br><br>
+        <h3>Candidatos a líder de sala</h3>
+        <label>Candidatos:</label>
+        <input type="radio" name="candidato1 " id="candidato11">
+
+        <input type="radio" name="candidato1" id="candidato12">
+
+        <input type="radio" name="candidato1" id="candidato13">
+        <br><br>
+        <h3>Candidatos a vice-líder</h3>
+        <label>Candidatos:</label>
+        <input type="radio" name="candidato2" id="candidato21">
+
+        <input type="radio" name="candidato2" id="candidato22">
+
+        <input type="radio" name="candidato2" id="candidato23">
+        <br><br>
+        <h3>Candidatos a secretário</h3>
+        <label>Candidatos:</label>
+        <input type="radio" name="candidato3" id="candidato31">
+
+        <input type="radio" name="candidato3" id="candidato32">
+
+        <input type="radio" name="candidato3" id="candidato33">
+           
+        <br><br>
+        <button type="submit">Cadastrar</button>
+        <button type="reset">Limpar</button>
+    </form>
+    
+</body>
+</html>
